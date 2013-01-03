@@ -3,7 +3,7 @@ use warnings;
 
 package WebService::IMDBAPI;
 {
-  $WebService::IMDBAPI::VERSION = '1.130020';
+  $WebService::IMDBAPI::VERSION = '1.130030';
 }
 
 # ABSTRACT: Interface to http://imdbapi.org/
@@ -98,7 +98,7 @@ sub _generate_url {
     my $url = sprintf( "%s&lang=%s", BASE_URL, $self->{language} );
 
     while ( my ( $key, $value ) = each(%$options) ) {
-        $url .= sprintf( "&%s=%s", $key, $value );
+        $url .= sprintf( "&%s=%s", $key, $value || 0 );
     }
 
     return $url;
@@ -116,7 +116,7 @@ WebService::IMDBAPI - Interface to http://imdbapi.org/
 
 =head1 VERSION
 
-version 1.130020
+version 1.130030
 
 =head1 SYNOPSIS
 

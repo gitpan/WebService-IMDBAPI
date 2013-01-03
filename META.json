@@ -1,10 +1,10 @@
 {
-   "abstract" : "Interface to http://imdbapi.org/\r",
+   "abstract" : "Interface to http://imdbapi.org/",
    "author" : [
       "Andrew Jones <andrew@arjones.co.uk>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.113640",
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
    "license" : [
       "perl_5"
    ],
@@ -52,6 +52,6 @@
          "web" : "https://github.com/andrewrjones/perl5-WebService-IMDBAPI"
       }
    },
-   "version" : "1.130020"
+   "version" : "1.130030"
 }
 

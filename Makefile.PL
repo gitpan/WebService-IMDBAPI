@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Interface to http://imdbapi.org/\r",
+  "ABSTRACT" => "Interface to http://imdbapi.org/",
   "AUTHOR" => "Andrew Jones <andrew\@arjones.co.uk>",
   "BUILD_REQUIRES" => {
     "English" => 0,
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.130020",
+  "VERSION" => "1.130030",
   "test" => {
     "TESTS" => "t/*.t"
   }
