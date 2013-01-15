@@ -3,7 +3,7 @@ use warnings;
 
 package WebService::IMDBAPI::Result;
 {
-  $WebService::IMDBAPI::Result::VERSION = '1.130030';
+  $WebService::IMDBAPI::Result::VERSION = '1.130150';
 }
 
 # ABSTRACT: Represents a result
@@ -47,7 +47,7 @@ WebService::IMDBAPI::Result - Represents a result
 
 =head1 VERSION
 
-version 1.130030
+version 1.130150
 
 =head1 DESCRIPTION
 
